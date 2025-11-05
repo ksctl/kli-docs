@@ -68,6 +68,103 @@ Configure application permissions:
 
 ![role-assign-app](/img/azure/azure-role-app.png)
 
+You can create a custom Role and then attach to this app if you want fine grained permission **Beta**
+
+```json
+{
+    "properties": {
+        "roleName": "Ksctl",
+        "description": "Kubmin.ksctl.com",
+        "assignableScopes": [
+            "/subscriptions/<subscription_id>"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.ContainerService/register/action",
+                    "Microsoft.ContainerService/unregister/action",
+                    "Microsoft.ContainerService/operations/*",
+                    "Microsoft.ContainerService/managedClusters/*",
+                    "Microsoft.ContainerService/managedclustersnapshots/*",
+                    "Microsoft.ContainerService/containerServices/*",
+                    "Microsoft.ContainerService/deploymentSafeguards/*",
+                    "Microsoft.ContainerService/locations/*",
+                    "Microsoft.ContainerService/snapshots/*",
+
+                    "Microsoft.Network/register/action",
+                    "Microsoft.Network/unregister/action",
+                    "Microsoft.Network/checkTrafficManagerNameAvailability/action",
+                    "Microsoft.Network/internalNotify/action",
+                    "Microsoft.Network/getDnsResourceReference/action",
+                    "Microsoft.Network/queryExpressRoutePortsBandwidth/action",
+                    "Microsoft.Network/checkFrontDoorNameAvailability/action",
+                    "Microsoft.Network/privateDnsZonesInternal/action",
+                    "Microsoft.Network/adminNetworkSecurityGroups/*",
+                    "Microsoft.Network/applicationGateways/*",
+                    "Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies/*",
+                    "Microsoft.Network/applicationGatewayAvailableRequestHeaders/*",
+                    "Microsoft.Network/applicationGatewayAvailableResponseHeaders/*",
+                    "Microsoft.Network/applicationGatewayAvailableServerVariables/*",
+                    "Microsoft.Network/applicationGatewayAvailableSslOptions/*",
+                    "Microsoft.Network/applicationGatewayAvailableWafRuleSets/read",
+                    "Microsoft.Network/applicationSecurityGroups/*",
+                    "Microsoft.Network/operations/*",
+                    "Microsoft.Network/azurefirewalls/*",
+                    "Microsoft.Network/azureFirewallFqdnTags/read",
+                    "Microsoft.Network/dnsResolvers/*",
+                    "Microsoft.Network/dnszones/*",
+                    "Microsoft.Network/dnsoperationresults/*",
+                    "Microsoft.Network/firewallPolicies/*",
+                    "Microsoft.Network/gatewayLoadBalancerAliases/*",
+                    "Microsoft.Network/ipAllocations/*",
+                    "Microsoft.Network/ipGroups/*",
+                    "Microsoft.Network/loadBalancers/*",
+                    "Microsoft.Network/natGateways/*",
+                    "Microsoft.Network/networkInterfaces/*",
+                    "Microsoft.Network/virtualNetworks/*",
+                    "Microsoft.Network/virtualNetworkGateways/read",
+                    "Microsoft.Network/virtualNetworkGateways/write",
+                    "Microsoft.Network/virtualNetworkGateways/delete",
+                    "microsoft.network/virtualnetworkgateways/*",
+                    "Microsoft.Network/virtualRouters/*",
+
+                    "Microsoft.Resources/checkResourceName/action",
+                    "Microsoft.Resources/changes/*",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/deploymentScripts/*",
+                    "Microsoft.Resources/deploymentStacks/*",
+                    "Microsoft.Resources/locations/*",
+                    "Microsoft.Resources/providers/*",
+                    "Microsoft.Resources/links/*",
+                    "Microsoft.Resources/resources/*",
+                    "Microsoft.Resources/subscriptions/*",
+                    "Microsoft.Resources/subscriptions/locations/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/*",
+                    "Microsoft.Resources/subscriptions/providers/*",
+                    "Microsoft.Resources/subscriptions/operationresults/*",
+                    "Microsoft.Resources/subscriptions/resources/*",
+                    "Microsoft.Resources/subscriptions/tagNames/*",
+                    "Microsoft.Resources/subscriptionRegistrations/*",
+                    "Microsoft.Resources/tags/*",
+                    "Microsoft.Resources/templateSpecs/*",
+                    "Microsoft.Resources/templateSpecs/versions/*",
+                    "Microsoft.Resources/tenants/*",
+
+                    "Microsoft.ManagedIdentity/register/*",
+                    "Microsoft.ManagedIdentity/operations/*",
+                    "Microsoft.ManagedIdentity/identities/*",
+                    "Microsoft.ManagedIdentity/userAssignedIdentities/*"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
+```
+
+
 ## Authentication Methods
 
 ### Command Line Interface
