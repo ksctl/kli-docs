@@ -1,6 +1,6 @@
-![CoverPage Social Media](https://github.com/ksctl/ksctl/raw/main/img/cover.svg)
+![CoverPage Social Media](https://github.com/ksctl/kli/raw/main/logo.svg)
 
-# Ksctl Docs
+# kli Docs
 
 Documentation for [Ksctl](https://github.com/ksctl/ksctl) and [Ksctl Cli](https://github.com/ksctl/cli)
 
