@@ -10,7 +10,7 @@ tags: [core]
 
 
 {{% alert color= "info" title="Note" %}}
-This Docs is only Cilium provided by Ksctl
+This Docs is only Cilium provided by Kli
 
 You can only choose CNI plugin during the cluster creation process.
 {{% /alert %}}

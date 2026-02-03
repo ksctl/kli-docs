@@ -1,7 +1,7 @@
 ---
 title: Cloud Controller
 description: >
-  The Component of Ksctl responsible for creating and managing clusters for different Cloud platforms.
+  The Component of kli responsible for creating and managing clusters for different Cloud platforms.
 categories: [Examples]
 ---
 

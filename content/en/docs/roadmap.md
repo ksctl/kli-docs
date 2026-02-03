@@ -68,7 +68,7 @@ All the below features will be moved to the Project Board and will be tracked th
 - Production stack for monitoring, security, to application specific application integrations like vault, kafka, etc.
 - Health checks of various k8s cluster
 - Role Based Access Control for any cluster
-- Ability import any existing cluster and also to respect the existing state and not overwrite it with the new state from ksctl but to be able to manage only the resources which the tool has access
+- Ability import any existing cluster and also to respect the existing state and not overwrite it with the new state from kli but to be able to manage only the resources which the tool has access
 - add initial production ready for cert manager + ingress controller (nginx) + gateway api
 - add initial production ready for monitoring (prometheus + grafana) tracing (jaeger) Opentelemtery support
 - add initial production ready for Networking (cilium)

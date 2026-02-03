@@ -12,16 +12,16 @@ Getting Started Documentation
 
 # Installation & Uninstallation Instructions
 
-## Ksctl CLI
+## kli
 Lets begin with installation of the tools
 their are various method
 
 ### Single command method
 
-{{% alert title="Install" %}}Steps to Install Ksctl cli tool{{% /alert %}}
+{{% alert title="Install" %}}Steps to Install kli cli tool{{% /alert %}}
 
 ```shell
-curl -sfL https://get.ksctl.com | python3 -
+curl -sfL https://get.kli.ksctl.com | python3 -
 ```
 
 {{% alert title="Uninstall" %}}Steps to Uninstall Ksctl cli tool{{% /alert %}}
@@ -30,12 +30,12 @@ curl -sfL https://get.ksctl.com | python3 -
   {{% tab header="**Operating System**:" disabled=true /%}}
   {{% tab header="Linux" %}}
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/ksctl/cli/main/scripts/uninstall.sh)
+bash <(curl -s https://raw.githubusercontent.com/ksctl/kli/main/scripts/uninstall.sh)
 ```
   {{% /tab %}}
   {{% tab header="MacOS" %}}
 ```shell
-zsh <(curl -s https://raw.githubusercontent.com/ksctl/cli/main/scripts/uninstall.sh)
+zsh <(curl -s https://raw.githubusercontent.com/ksctl/kli/main/scripts/uninstall.sh)
 ```
   {{% /tab %}}
 {{< /tabpane >}}
@@ -70,8 +70,8 @@ make uninstall
 {{% alert title="Configure" %}}Steps to Configure Ksctl cli tool{{% /alert %}}
 
 ```shell
-ksctl configure cloud # To configure cloud
-ksctl configure storage # To configure storage
+kli configure cloud # To configure cloud
+kli configure storage # To configure storage
 ```
 
 {{% alert color="info" title="How to start with cli" %}}

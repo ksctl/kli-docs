@@ -1,7 +1,7 @@
 ---
 title: Core Manager
 description: >
-  The Component of Ksctl responsible for managing Cloud controller and Distribution controller. It has multiple types of managers
+  The Component of kli responsible for managing Cloud controller and Distribution controller. It has multiple types of managers
 categories: [Examples]
 ---
 
@@ -11,15 +11,15 @@ It is responsible for managing client requests and calls the corresponding contr
 
 ## Types
 
-### ManagerClusterKsctl
-`Role`: Perform ksctl **getCluster**, **switchCluster**
+### ManagerClusterkli
+`Role`: Perform kli **getCluster**, **switchCluster**
 
 ### ManagerClusterKubernetes
-`Role`: Perform ksctl **addApplicationAndCrds**
-Currently to be used by machine to machine not by ksctl cli
+`Role`: Perform kli **addApplicationAndCrds**
+Currently to be used by machine to machine not by kli cli
 
 ### ManagerClusterManaged
-`Role`: Perform ksctl **createCluster**, **deleteCluster**
+`Role`: Perform kli **createCluster**, **deleteCluster**
 
 ### ManagerClusterSelfManaged
-`Role`: Perform ksctl **createCluster**, **deleteCluster**, **addWorkerNodes**, **delWorkerNodes**
+`Role`: Perform kli **createCluster**, **deleteCluster**, **addWorkerNodes**, **delWorkerNodes**

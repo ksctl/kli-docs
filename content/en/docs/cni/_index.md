@@ -1,6 +1,6 @@
 ---
 title: Container Network Interface (CNI)
-description: Supported CNI by Ksctl
+description: Supported CNI by kli
 tags: [cni, addon]
 ---
 
@@ -11,7 +11,7 @@ For Cloud managed cluster it varies based on the provider.
 {{% /pageinfo %}}
 
 ## Pre-requisites
-You get to choose Ksctl CNI when you choose `none` from the main provider :
+You get to choose kli CNI when you choose `none` from the main provider :
 - Cloud Managed Cluster Provider (**aks**, **eks**, **kind**) _Or_
 - Kubernetes Bootstrap Provider (**k3s**, **kubeadm**)
 
