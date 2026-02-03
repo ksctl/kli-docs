@@ -4,5 +4,5 @@ weight: 20
 ---
 
 {{% pageinfo %}}
-All the Ksctl announcements
+All the kli announcements
 {{% /pageinfo %}}

@@ -1,10 +1,11 @@
 ---
-title: Ksctl Docs
+title: Kli Docs
 ---
 
-{{< blocks/cover title="Welcome to Ksctl Documentation!" image_anchor="top" height="full" >}}
+{{< blocks/cover title="Welcome to kli Documentation!" image_anchor="top" height="full" >}}
 
-![Propsal design](/img/ksctl-logo.svg)
+<img alt="kli Logo" class="mb-4" src="/img/kli-logo.svg" width="200" />
+<br>
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="docs/">
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
@@ -23,7 +24,7 @@ title: Ksctl Docs
 
 {{% blocks/lead color="primary" %}}
 
-Ksctl is a unified CLI tool that simplifies the management of Kubernetes clusters across diverse cloud providers. Designed for developers, Ksctl eliminates the complexity of multi-cloud Kubernetes setups by consolidating cluster management into one intuitive interface.
+Kli is a unified CLI tool that simplifies the management of Kubernetes clusters across diverse cloud providers. Designed for developers, kli eliminates the complexity of multi-cloud Kubernetes setups by consolidating cluster management into one intuitive interface.
 
 {{% /blocks/lead %}}
 
@@ -70,7 +71,7 @@ Ksctl is a unified CLI tool that simplifies the management of Kubernetes cluster
 {{% blocks/section type="row" %}}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
-    url="https://github.com/ksctl/ksctl" %}}
+    url="https://github.com/ksctl/kli" %}}
 We do a contributions workflow on **GitHub**. New users are always welcome!
 {{% /blocks/feature %}}
 

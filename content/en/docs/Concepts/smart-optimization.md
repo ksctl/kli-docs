@@ -1,21 +1,21 @@
 ---
 title: Smart Cost & Emission Optimization
-description: Documentation on Ksctl's intelligent region and instance selection features
+description: Documentation on kli's intelligent region and instance selection features
 weight: 5
 tags: [docs, concepts, optimization]
 ---
 
 # Smart Cost & Emission Optimization
 
-Ksctl provides intelligent optimization features that help you minimize infrastructure costs and environmental impact when deploying Kubernetes clusters. These features ensure that your clusters run in both the most cost-effective and environmentally friendly configurations.
+kli provides intelligent optimization features that help you minimize infrastructure costs and environmental impact when deploying Kubernetes clusters. These features ensure that your clusters run in both the most cost-effective and environmentally friendly configurations.
 
-## Ksctl Optimizer (KO) (v2.4+)
+## kli Optimizer (KO) (v2.4+)
 
-Introduced in **Ksctl v2.4**, KO optimizes costs and emissions by intelligently selecting the most efficient region for your Kubernetes clusters without changing your instance type.
+Introduced in **kli v2.4**, KO optimizes costs and emissions by intelligently selecting the most efficient region for your Kubernetes clusters without changing your instance type.
 
 ### Key Benefits
 
-- **🚀 Automatic Region Optimization**: Ksctl intelligently identifies and switches to the most cost-effective and environmentally friendly regions.
+- **🚀 Automatic Region Optimization**: kli intelligently identifies and switches to the most cost-effective and environmentally friendly regions.
 - **🛠️ Flexible Region Control**: You can opt to keep your cluster in your preferred region if needed.
 - **💰 Cost Savings**: Dynamically adapts to pricing changes across regions, reducing your infrastructure expenses.
 - **🌱 Eco-Friendly Operations**: Minimizes carbon footprint through smart region selection.
@@ -29,12 +29,12 @@ It evaluates regions based on multiple metrics to determine the optimal location
 3. **Renewable Power Percentage** (Higher is better): Highlights regions with higher renewable energy usage.
 4. **Low CO₂ Power Percentage** (Higher is better): Focuses on regions with a lower share of carbon-intensive power.
 
-![Ksctl v2.4 KO Feature](/img/blogs/ksctl-new-recommendation.png)
+![kli v2.4 KO Feature](/img/blogs/ksctl-new-recommendation.png)
 *Visualization of dynamic region switching optimization*
 
-## Ksctl Sustainability Metrics (KSM) (v2.5+)
+## kli Sustainability Metrics (KSM) (v2.5+)
 
-Introduced in **Ksctl v2.5**, this feature enhances the optimization capabilities through a card-based selection interface that helps you choose the best region and instance type for your Kubernetes clusters based on your specific requirements.
+Introduced in **kli v2.5**, this feature enhances the optimization capabilities through a card-based selection interface that helps you choose the best region and instance type for your Kubernetes clusters based on your specific requirements.
 
 ### Smart Region Selection
 
@@ -78,9 +78,9 @@ The Smart Instance Type Selection evaluates and ranks instance types based on:
 
 ## Using the Optimization Features
 
-These optimization features are integrated with the `ksctl cluster create` command and work automatically when you create a new Kubernetes cluster.
+These optimization features are integrated with the `kli cluster create` command and work automatically when you create a new Kubernetes cluster.
 
-When you run the cluster creation command, Ksctl will:
+When you run the cluster creation command, kli will:
 
 1. Analyze available regions and instance types
 2. Evaluate cost and emission metrics for each option
@@ -91,10 +91,10 @@ This ensures you get **maximum cost efficiency** and **minimum emissions** while
 
 ## Upgrading to Access These Features
 
-To access these optimization features, make sure you're using Ksctl v2.4 or above by running:
+To access these optimization features, make sure you're using kli v2.4 or above by running:
 
 ```shell
-ksctl self-update
+kli self-update
 ```
 
 This will ensure you have the latest version with all the optimization capabilities described in this document.

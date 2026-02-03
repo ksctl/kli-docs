@@ -1,13 +1,13 @@
 ---
 title: Features
-description: Features of ksctl
+description: Features of kli
 tags: [docs]
 ---
 
 ### Our Vision
 
 Transform your Kubernetes experience with a tool that puts simplicity and efficiency first.
-Ksctl eliminates the complexity of cluster management, allowing developers to focus on what matters most – building great applications.
+kli eliminates the complexity of cluster management, allowing developers to focus on what matters most – building great applications.
 
 ### Key Features
 

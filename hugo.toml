@@ -1,5 +1,5 @@
-baseURL = "https://docs.ksctl.com"
-title = "Ksctl Docs"
+baseURL = "https://docs.kli.ksctl.com"
+title = "kli Docs"
 
 # Language settings
 contentDir = "content/en"
@@ -63,8 +63,8 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-title = "Ksctl Docs"
-description = "A Ksctl Docs page"
+title = "Kli Docs"
+description = "A Kli Docs page"
 
 [markup]
   [markup.goldmark]
@@ -90,7 +90,7 @@ section = ["HTML", "print", "RSS"]
 
 [[params.versions]]
   version = "stable"
-  url = "https://docs.ksctl.com"
+  url = "https://docs.kli.ksctl.com"
 
 
 [params]
@@ -118,7 +118,7 @@ archived_version = false
 # url_latest_version = "https://docs.ksctl.com/docs/stable"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/ksctl/docs"
+github_repo = "https://github.com/ksctl/kli-docs"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/google/docsy"
 
@@ -158,8 +158,8 @@ showLightDarkModeMenu = true
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/ksctl/docs/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/ksctl/docs/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/ksctl/kli-docs/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/ksctl/kli-docs/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page,
@@ -183,7 +183,7 @@ enable = false
 
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/ksctl/docs"
+  url = "https://github.com/ksctl/kli-docs"
   icon = "fab fa-github"
   desc = "Development takes place here!"
 [[params.links.developer]]

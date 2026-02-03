@@ -4,5 +4,5 @@ weight: 20
 ---
 
 {{% pageinfo %}}
-Ksctl documentation
+kli documentation
 {{% /pageinfo %}}

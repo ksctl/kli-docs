@@ -1,5 +1,5 @@
 ---
-title: Ksctl Cluster Management
+title: Kli Cluster Management
 description: Place of all the documentation for the Operators used specifically for k8s clusters
 tags: [docs]
 ---

@@ -7,5 +7,5 @@ menu:
 ---
 
 {{% pageinfo %}}
-Ksctl documentation
+kli documentation
 {{% /pageinfo %}}

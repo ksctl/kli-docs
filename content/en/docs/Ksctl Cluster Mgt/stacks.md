@@ -1,6 +1,6 @@
 ---
-title: Ksctl Stack
-description: Documentation on ksctl stack controller
+title: kli Stack
+description: Documentation on kli stack controller
 categories: [Examples, Placeholders]
 tags: [docs]
 ---

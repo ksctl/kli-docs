@@ -1,60 +1,60 @@
 ---
 title: Faq
-description: Frequently asked questions about ksctl
+description: Frequently asked questions about kli
 tags: [docs]
 ---
 
 ## General
 
-### What is ksctl?
-Ksctl is a lightweight, easy-to-use tool that simplifies the process of managing Kubernetes clusters. It provides a unified interface for common cluster operations like create, delete, scaleup and down, and is designed to be simple, efficient, and developer-friendly.
+### What is kli?
+kli is a lightweight, easy-to-use tool that simplifies the process of managing Kubernetes clusters. It provides a unified interface for common cluster operations like create, delete, scaleup and down, and is designed to be simple, efficient, and developer-friendly.
 
-### What can I do with ksctl?
-With ksctl, you can deploy Kubernetes clusters across any cloud provider, switch between providers seamlessly, and choose between managed and self-managed HA clusters. You can deploy clusters with a single command, without any complex configuration, and manage them with a unified interface that eliminates the need for provider-specific CLIs.
+### What can I do with kli?
+With kli, you can deploy Kubernetes clusters across any cloud provider, switch between providers seamlessly, and choose between managed and self-managed HA clusters. You can deploy clusters with a single command, without any complex configuration, and manage them with a unified interface that eliminates the need for provider-specific CLIs.
 
 
-### How does ksctl simplify cluster management?
-Ksctl simplifies cluster management by providing a streamlined interface for common cluster operations like create, delete, scaleup and down. It eliminates the need for complex configuration and provider-specific CLIs, and provides a consistent experience across environments. With ksctl, developers can focus on building great applications without getting bogged down by the complexities of cluster management.
+### How does kli simplify cluster management?
+kli simplifies cluster management by providing a streamlined interface for common cluster operations like create, delete, scaleup and down. It eliminates the need for complex configuration and provider-specific CLIs, and provides a consistent experience across environments. With kli, developers can focus on building great applications without getting bogged down by the complexities of cluster management.
 
-### Who is ksctl for?
-Ksctl is designed for developers, DevOps engineers, and anyone who needs to manage Kubernetes clusters. It is ideal for teams of all skill levels, from beginners to experts, and provides a simple, efficient, and developer-friendly way to deploy and manage clusters.
+### Who is kli for?
+kli is designed for developers, DevOps engineers, and anyone who needs to manage Kubernetes clusters. It is ideal for teams of all skill levels, from beginners to experts, and provides a simple, efficient, and developer-friendly way to deploy and manage clusters.
 
-### How does ksctl differ from other cluster management tools?
-Ksctl is a lightweight, easy-to-use tool that simplifies the process of managing Kubernetes clusters. It provides a unified interface for common cluster operations like create, delete, scaleup and down, and is designed to be simple, efficient, and developer-friendly. Ksctl is not a full-fledged platform like Rancher, but rather a simple CLI tool that provides a streamlined interface for common cluster operations.
+### How does kli differ from other cluster management tools?
+kli is a lightweight, easy-to-use tool that simplifies the process of managing Kubernetes clusters. It provides a unified interface for common cluster operations like create, delete, scaleup and down, and is designed to be simple, efficient, and developer-friendly. kli is not a full-fledged platform like Rancher, but rather a simple CLI tool that provides a streamlined interface for common cluster operations.
 
 ### Is it production-ready?
 No, the level of highly customization is missing in terms of cloud resources, ssh ports are open to public internet (self managed cluster) though authentication via ssh keypair are there. It recommended to be used by developers for development and testing purposes and get familiar with the Kubernetes Ecosystem
 
 ## Comparisons
 
-### Ksctl vs Cluster API
-- **Simplicity vs Complexity**: Cluster API uses a sophisticated set of CRDs (Custom Resource Definitions) to manage machines, machine sets, and deployments. In contrast, Ksctl adopts a minimalist approach, focusing on reducing complexity for developers and operators.  
-- **Target Audience**: Ksctl caters to users seeking a lightweight, user-friendly tool for quick cluster management tasks, particularly in development and testing environments. Cluster API is designed for production-grade use cases, emphasizing flexibility and integration with Kubernetes' declarative model.  
-- **Dependencies**: Ksctl is a standalone CLI tool that does not require a running Kubernetes cluster, making it easy to set up and run anywhere. On the other hand, Cluster API requires a pre-existing Kubernetes cluster to operate.  
-- **Feature Focus**: Ksctl emphasizes speed and simplicity in managing cluster lifecycle operations (create, delete, scale). Cluster API provides deeper control and automation features suitable for enterprises managing complex Kubernetes ecosystems.
+### kli vs Cluster API
+- **Simplicity vs Complexity**: Cluster API uses a sophisticated set of CRDs (Custom Resource Definitions) to manage machines, machine sets, and deployments. In contrast, kli adopts a minimalist approach, focusing on reducing complexity for developers and operators.  
+- **Target Audience**: kli caters to users seeking a lightweight, user-friendly tool for quick cluster management tasks, particularly in development and testing environments. Cluster API is designed for production-grade use cases, emphasizing flexibility and integration with Kubernetes' declarative model.  
+- **Dependencies**: kli is a standalone CLI tool that does not require a running Kubernetes cluster, making it easy to set up and run anywhere. On the other hand, Cluster API requires a pre-existing Kubernetes cluster to operate.  
+- **Feature Focus**: kli emphasizes speed and simplicity in managing cluster lifecycle operations (create, delete, scale). Cluster API provides deeper control and automation features suitable for enterprises managing complex Kubernetes ecosystems.
 
 
-### What is the difference between Ksctl and k3sup?
-- **Scope**: Ksctl is a comprehensive tool for managing Kubernetes clusters across multiple environments from cloud managed Kubernetes flavour to K3s and kubeadm. K3sup, on the other hand, focuses primarily on bootstrapping lightweight k3s clusters.  
-- **Features**: Ksctl handles infrastructure provisioning, cluster scaling, and cloud-agnostic lifecycle management, whereas k3sup is limited to installing k3s clusters without managing the underlying infrastructure.  
-- **Cloud Support**: Ksctl provides a unified interface for managing clusters across different providers, making it suitable for multi-cloud strategies. K3sup is more limited and designed for standalone setups.
+### What is the difference between kli and k3sup?
+- **Scope**: kli is a comprehensive tool for managing Kubernetes clusters across multiple environments from cloud managed Kubernetes flavour to K3s and kubeadm. K3sup, on the other hand, focuses primarily on bootstrapping lightweight k3s clusters.  
+- **Features**: kli handles infrastructure provisioning, cluster scaling, and cloud-agnostic lifecycle management, whereas k3sup is limited to installing k3s clusters without managing the underlying infrastructure.  
+- **Cloud Support**: kli provides a unified interface for managing clusters across different providers, making it suitable for multi-cloud strategies. K3sup is more limited and designed for standalone setups.
 
 
-### How does Ksctl compare to Rancher?
-- **Tool vs Platform**: Ksctl is a streamlined CLI tool for cluster management. Rancher, by contrast, is a feature-rich platform offering cluster governance, monitoring, access control, and application management.  
-- **Use Case**: Ksctl is lightweight and ideal for developers needing quick, uncomplicated cluster management. Rancher is tailored for enterprise environments where centralized management and control of multiple clusters are essential.  
-- **Operational Scope**: Ksctl focuses on basic lifecycle operations (create, delete, scale). Rancher includes features like Helm chart deployment, RBAC integration, and advanced workload management.
+### How does kli compare to Rancher?
+- **Tool vs Platform**: kli is a streamlined CLI tool for cluster management. Rancher, by contrast, is a feature-rich platform offering cluster governance, monitoring, access control, and application management.  
+- **Use Case**: kli is lightweight and ideal for developers needing quick, uncomplicated cluster management. Rancher is tailored for enterprise environments where centralized management and control of multiple clusters are essential.  
+- **Operational Scope**: kli focuses on basic lifecycle operations (create, delete, scale). Rancher includes features like Helm chart deployment, RBAC integration, and advanced workload management.
 
 
-### What is the difference between Ksctl and k3d, Kind, or Minikube?
-- **Environment Scope**: Ksctl is designed for both local and cloud-based Kubernetes cluster management. Tools like k3d, Kind, and Minikube are primarily for local development and testing purposes.
-- **Cluster Management**: Ksctl can provision, scale, and delete clusters in cloud environments, whereas k3d, Kind, and Minikube focus on providing lightweight clusters for experimentation and local development.
-- **Infrastructure Management**: Ksctl integrates with infrastructure provisioning, while the others rely on pre-existing local environments (e.g., Docker for k3d and Kind, or virtual machines for Minikube).
+### What is the difference between kli and k3d, Kind, or Minikube?
+- **Environment Scope**: kli is designed for both local and cloud-based Kubernetes cluster management. Tools like k3d, Kind, and Minikube are primarily for local development and testing purposes.
+- **Cluster Management**: kli can provision, scale, and delete clusters in cloud environments, whereas k3d, Kind, and Minikube focus on providing lightweight clusters for experimentation and local development.
+- **Infrastructure Management**: kli integrates with infrastructure provisioning, while the others rely on pre-existing local environments (e.g., Docker for k3d and Kind, or virtual machines for Minikube).
 
 
-### How does Ksctl compare to eksctl?
-- **Cloud Support**: Ksctl is cloud-agnostic and supports multiple providers, making it suitable for multi-cloud setups. Eksctl, on the other hand, is tightly coupled with AWS and designed exclusively for managing EKS clusters.  
-- **Features**: Ksctl provides an all-in-one tool for provisioning infrastructure, managing the cluster lifecycle, and scaling across different environments. Eksctl is focused on streamlining EKS setup and optimizing AWS integrations like IAM, VPCs, and Load Balancers.  
-- **Target Audience**: Ksctl appeals to users seeking a flexible, multi-cloud solution. Eksctl is ideal for AWS-centric teams that require deep integration with AWS services.
+### How does kli compare to ekli?
+- **Cloud Support**: kli is cloud-agnostic and supports multiple providers, making it suitable for multi-cloud setups. Ekli, on the other hand, is tightly coupled with AWS and designed exclusively for managing EKS clusters.  
+- **Features**: kli provides an all-in-one tool for provisioning infrastructure, managing the cluster lifecycle, and scaling across different environments. Ekli is focused on streamlining EKS setup and optimizing AWS integrations like IAM, VPCs, and Load Balancers.  
+- **Target Audience**: kli appeals to users seeking a flexible, multi-cloud solution. Eksctl is ideal for AWS-centric teams that require deep integration with AWS services.
 
 
