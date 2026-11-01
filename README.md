@@ -2,6 +2,19 @@
 
 # kli Docs
 
+> [!WARNING]
+> **This project is archived and no longer maintained.**
+>
+> What I build now:
+>
+> - **[Kubmin](https://ksctl.com/product/kubmin)** — per-workload cost, efficiency, and SCI/SEI intelligence for Kubernetes
+> - **[infai](https://infai.dipankar-das.com)** — a terminal control plane for local LLM inference: one profile shape for llama.cpp and vLLM, many models at once, live tokens/sec plus CPU/RAM/VRAM telemetry, hardware fit checks before launch
+> - **[infaiw](https://infai.dipankar-das.com/infaiw/)** — a daemon-based agent harness: sessions keep running after you close the terminal, sidecar loops must pass an acceptance check before reporting back, every event lands on a durable branchable timeline, and approvals wait for you
+>
+> **Want to take over maintenance of `kli`?** If you still depend on it and would like to become the maintainer, reach out on [Discord](https://discord.ksctl.com) or [open an issue](https://github.com/ksctl/kli/issues) on this repo.
+>
+> The code here stays available for reference under its original license.
+
 Documentation for [Ksctl](https://github.com/ksctl/ksctl) and [Ksctl Cli](https://github.com/ksctl/cli)
 
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7469/badge)](https://www.bestpractices.dev/projects/7469)
