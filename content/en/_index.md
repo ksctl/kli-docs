@@ -7,6 +7,11 @@ title: Kli Docs
 <img alt="kli Logo" class="mb-4" src="/img/kli-logo.svg" width="200" />
 <br>
 
+<div class="alert alert-warning text-start mx-auto mb-4" role="status" style="max-width: 42rem;">
+  <strong>This project is archived and no longer maintained.</strong>
+  These docs stay available as a reference.
+</div>
+
 <a class="btn btn-lg btn-primary me-3 mb-4" href="docs/">
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
@@ -68,21 +73,36 @@ Kli is a unified CLI tool that simplifies the management of Kubernetes clusters 
 <!---->
 <!---->
 
+{{% blocks/section color="white" %}}
+
+{{% alert color="warning" title="Archived" %}}
+**This project is archived and no longer maintained.** These docs stay available as a reference. The code stays available under its original license.
+
+What I build now:
+
+- **[Kubmin](https://ksctl.com/product/kubmin)** — per-workload cost, efficiency, and SCI/SEI intelligence for Kubernetes
+- **[infai](https://infai.dipankar-das.com)** — a terminal control plane for local LLM inference: one profile shape for llama.cpp and vLLM, many models at once, live tokens/sec plus CPU/RAM/VRAM telemetry, hardware fit checks before launch
+- **[infaiw](https://infai.dipankar-das.com/infaiw/)** — a daemon-based agent harness: sessions keep running after you close the terminal, sidecar loops must pass an acceptance check before reporting back, every event lands on a durable branchable timeline, and approvals wait for you
+
+**Want to take over maintenance of `kli`?** If you still depend on it and would like to become the maintainer, reach out on [Discord](https://discord.ksctl.com) or [open an issue](https://github.com/ksctl/kli/issues).
+{{% /alert %}}
+
+{{% /blocks/section %}}
+
 {{% blocks/section type="row" %}}
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
-    url="https://github.com/ksctl/kli" %}}
-We do a contributions workflow on **GitHub**. New users are always welcome!
+{{% blocks/feature icon="fa-book" title="Docs stay up"
+    url="docs/" url_text="Read the docs" %}}
+The reference for kli is still here. The code stays available on GitHub under its original license.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"
-    url="https://twitter.com/ksctl_org" %}}
-For announcement of latest features etc.
+{{% blocks/feature icon="fa-hammer" title="What I build now" %}}
+[Kubmin](https://ksctl.com/product/kubmin), [infai](https://infai.dipankar-das.com), and [infaiw](https://infai.dipankar-das.com/infaiw/).
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-discord" title="Join our Discord channel!"
-    url="https://discord.ksctl.com" %}}
-Community calls, discussions, etc.
+{{% blocks/feature icon="fab fa-discord" title="Take over kli"
+    url="https://discord.ksctl.com" url_text="Reach out on Discord" %}}
+If you still depend on it and want to become the maintainer, reach out on Discord or [open an issue](https://github.com/ksctl/kli/issues).
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}

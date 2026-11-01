@@ -104,9 +104,9 @@ copyright = "The Ksctl Authors"
 # This menu appears only if you have at least one [params.versions] set.
 version_menu = "Releases"
 
-# Flag used in the "version-banner" partial to decide whether to display a
-# banner on every page indicating that this is an archived version of the docs.
-# Set this flag to "true" if you want to display the banner.
+# Flag read by layouts/_partials/version-banner.html. When true, every docs
+# page says kli is archived and that these docs stay up as a reference.
+# This is not Docsy's stock "old docs snapshot" banner.
 archived_version = true
 
 # The version number for the version of the docs represented in this doc set.

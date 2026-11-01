@@ -1,0 +1,12 @@
+{{ if .Site.Params.archived_version }}
+<div class="pageinfo pageinfo-warning">
+  <p><strong>This project is archived and no longer maintained.</strong> These docs stay available as a reference. The code stays available under its original license.</p>
+  <p>What I build now:</p>
+  <ul>
+    <li><a href="https://ksctl.com/product/kubmin"><strong>Kubmin</strong></a> — per-workload cost, efficiency, and SCI/SEI intelligence for Kubernetes</li>
+    <li><a href="https://infai.dipankar-das.com"><strong>infai</strong></a> — a terminal control plane for local LLM inference: one profile shape for llama.cpp and vLLM, many models at once, live tokens/sec plus CPU/RAM/VRAM telemetry, hardware fit checks before launch</li>
+    <li><a href="https://infai.dipankar-das.com/infaiw/"><strong>infaiw</strong></a> — a daemon-based agent harness: sessions keep running after you close the terminal, sidecar loops must pass an acceptance check before reporting back, every event lands on a durable branchable timeline, and approvals wait for you</li>
+  </ul>
+  <p><strong>Want to take over maintenance of <code>kli</code>?</strong> If you still depend on it and would like to become the maintainer, reach out on <a href="https://discord.ksctl.com">Discord</a> or <a href="https://github.com/ksctl/kli/issues">open an issue</a>.</p>
+</div>
+{{ end }}
